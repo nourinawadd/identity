@@ -1288,7 +1288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1186856094}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 3
+  keywordValue: Round
 --- !u!114 &247751224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1570,7 +1571,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1823128073}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 0
+  keywordValue: Bald
 --- !u!114 &281835961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2394,7 +2396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 374560155}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 2
+  keywordValue: European
 --- !u!114 &443252822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2814,7 +2817,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1823128073}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 0
+  keywordValue: Short
 --- !u!114 &565576656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2963,7 +2967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 374560155}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 2
+  keywordValue: MiddleEastern
 --- !u!114 &572315350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,11 +4056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 773364901baee4441988b4516060695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  searchBarHolder: {fileID: 547327347}
   resultsSceneName: Results
-  hair: 
-  occupation: 
-  ethnicity: 
-  facial: 
 --- !u!1 &925246057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4246,7 +4248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1186856094}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 3
+  keywordValue: Angular
 --- !u!114 &927556346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5021,7 +5024,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1222659488}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 1
+  keywordValue: Actor
 --- !u!1 &1099989918
 GameObject:
   m_ObjectHideFlags: 0
@@ -5287,7 +5291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 374560155}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 2
+  keywordValue: Asian
 --- !u!114 &1129971005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5436,7 +5441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1222659488}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 1
+  keywordValue: Singer
 --- !u!114 &1143860222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6124,7 +6130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1823128073}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 0
+  keywordValue: Curly
 --- !u!114 &1201914988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6647,7 +6654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 374560155}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 2
+  keywordValue: African
 --- !u!114 &1233499274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7364,7 +7372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1823128073}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 0
+  keywordValue: Long
 --- !u!114 &1473536616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7649,7 +7658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1823128073}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 0
+  keywordValue: Tied
 --- !u!114 &1535753061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8241,7 +8251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 374560155}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 2
+  keywordValue: Mixed
 --- !u!114 &1649252017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9058,7 +9069,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1186856094}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 3
+  keywordValue: Rugged
 --- !u!114 &1850626427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9451,7 +9463,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalParent: {fileID: 1186856094}
   searchBarHolder: {fileID: 547327347}
-  maxKeywords: 4
+  category: 3
+  keywordValue: Distinct
 --- !u!114 &1958604049
 MonoBehaviour:
   m_ObjectHideFlags: 0

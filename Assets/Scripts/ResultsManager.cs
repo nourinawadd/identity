@@ -1,18 +1,49 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class ResultsManager : MonoBehaviour
 {
+    [Header("Database")]
     public CelebrityDatabase database;
 
+    [Header("Filtered Results")]
     public List<CelebrityData> filteredResults = new List<CelebrityData>();
+
+    [Header("UI - Keyword Display")]
+    public Button hairBtn;
+    public Button occupationBtn;
+    public Button ethnicityBtn;
+    public Button facialBtn;
+
+    [Header("UI - Grid")]
+    public Transform gridParent;
+    public GameObject celebrityButtonPrefab;
+
+    [Header("Inspector")]
     public CelebrityInspectorController inspectorController;
 
     void Start()
     {
+        DisplaySelectedKeywords();
         FilterResults();
+        PopulateGrid();
     }
 
+    // ----------------------------
+    // Show selected keywords
+    // ----------------------------
+    void DisplaySelectedKeywords()
+    {
+        hairBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.hair;
+        occupationBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.occupation;
+        ethnicityBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.ethnicity;
+        facialBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.facial;
+    }
+
+    // ----------------------------
+    // Filter Celebrities
+    // ----------------------------
     void FilterResults()
     {
         filteredResults.Clear();
@@ -30,8 +61,26 @@ public class ResultsManager : MonoBehaviour
 
         Debug.Log("Matches found: " + filteredResults.Count);
     }
-    public void OpenInspector(CelebrityData celeb)
+
+    // ----------------------------
+    // Populate Grid
+    // ----------------------------
+    void PopulateGrid()
     {
-        inspectorController.ShowCelebrity(celeb);
+        // Clear old buttons
+        foreach (Transform child in gridParent)
+            Destroy(child.gameObject);
+
+        foreach (CelebrityData celeb in filteredResults)
+        {
+            Debug.Log("Spawning: " + celeb.celebrityName);
+            GameObject buttonObj =
+                Instantiate(celebrityButtonPrefab, gridParent);
+
+            CelebrityButtonUI button =
+                buttonObj.GetComponent<CelebrityButtonUI>();
+
+            button.Setup(celeb, inspectorController);
+        }
     }
 }
