@@ -13,6 +13,7 @@ public class ClearSearch : MonoBehaviour
             if (btn != null)
             {
                 keyword.SetParent(btn.originalParent);
+                btn.ResetKeyword();
             }
         }
     }

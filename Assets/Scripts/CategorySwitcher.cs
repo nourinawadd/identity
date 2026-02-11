@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CategorySwitcher : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class CategorySwitcher : MonoBehaviour
         DisableAll();
         hairPanel.SetActive(true);
         dropdownMenu.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void ShowOccupation()
@@ -28,6 +30,7 @@ public class CategorySwitcher : MonoBehaviour
         DisableAll();
         occupationPanel.SetActive(true);
         dropdownMenu.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void ShowEthnicity()
@@ -35,6 +38,7 @@ public class CategorySwitcher : MonoBehaviour
         DisableAll();
         ethnicityPanel.SetActive(true);
         dropdownMenu.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void ShowFacial()
@@ -42,5 +46,6 @@ public class CategorySwitcher : MonoBehaviour
         DisableAll();
         facialPanel.SetActive(true);
         dropdownMenu.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
     }
 }

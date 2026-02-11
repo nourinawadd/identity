@@ -5,7 +5,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("Search");
     }
 
     public void OnExitClick()
