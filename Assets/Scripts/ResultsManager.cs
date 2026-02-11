@@ -6,6 +6,7 @@ public class ResultsManager : MonoBehaviour
     public CelebrityDatabase database;
 
     public List<CelebrityData> filteredResults = new List<CelebrityData>();
+    public CelebrityInspectorController inspectorController;
 
     void Start()
     {
@@ -28,5 +29,9 @@ public class ResultsManager : MonoBehaviour
         }
 
         Debug.Log("Matches found: " + filteredResults.Count);
+    }
+    public void OpenInspector(CelebrityData celeb)
+    {
+        inspectorController.ShowCelebrity(celeb);
     }
 }
