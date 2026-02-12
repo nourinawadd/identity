@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   celebrityName: Mohamed Ramadan
   portrait: {fileID: 0}
-  hair: Bald
+  hair: Short
   occupation: Actor
   ethnicity: MiddleEastern
   facial: Rugged

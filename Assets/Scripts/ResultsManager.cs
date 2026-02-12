@@ -50,17 +50,31 @@ public class ResultsManager : MonoBehaviour
 
         foreach (CelebrityData celeb in database.celebrities)
         {
-            if (celeb.hair == SearchMemory.hair &&
-                celeb.occupation == SearchMemory.occupation &&
-                celeb.ethnicity == SearchMemory.ethnicity &&
-                celeb.facial == SearchMemory.facial)
-            {
+            bool match = true;
+
+            if (!string.IsNullOrEmpty(SearchMemory.hair) &&
+                celeb.hair != SearchMemory.hair)
+                match = false;
+
+            if (!string.IsNullOrEmpty(SearchMemory.occupation) &&
+                celeb.occupation != SearchMemory.occupation)
+                match = false;
+
+            if (!string.IsNullOrEmpty(SearchMemory.ethnicity) &&
+                celeb.ethnicity != SearchMemory.ethnicity)
+                match = false;
+
+            if (!string.IsNullOrEmpty(SearchMemory.facial) &&
+                celeb.facial != SearchMemory.facial)
+                match = false;
+
+            if (match)
                 filteredResults.Add(celeb);
-            }
         }
 
         Debug.Log("Matches found: " + filteredResults.Count);
     }
+
 
     // ----------------------------
     // Populate Grid

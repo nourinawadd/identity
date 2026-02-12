@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   celebrityName: Jungkook
   portrait: {fileID: 0}
-  hair: Long
+  hair: Short
   occupation: Singer
   ethnicity: Asian
   facial: Round

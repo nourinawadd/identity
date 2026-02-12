@@ -1187,7 +1187,7 @@ MonoBehaviour:
   panelRoot: {fileID: 463717865}
   celebrityImage: {fileID: 723248949}
   inspectorDetails: {fileID: 205555145}
-  animator: {fileID: 0}
+  animator: {fileID: 463717870}
 --- !u!1 &469216648
 GameObject:
   m_ObjectHideFlags: 0

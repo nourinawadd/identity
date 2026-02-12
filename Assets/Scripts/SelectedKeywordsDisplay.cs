@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class SelectedKeywordsDisplay : MonoBehaviour
 {
     public Button hairBtn;
@@ -10,9 +11,24 @@ public class SelectedKeywordsDisplay : MonoBehaviour
 
     void Start()
     {
-        hairBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.hair;
-        occupationBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.occupation;
-        ethnicityBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.ethnicity;
-        facialBtn.GetComponentInChildren<TMP_Text>().text = SearchMemory.facial;
+        SetKeywordButton(hairBtn, SearchMemory.hair);
+        SetKeywordButton(occupationBtn, SearchMemory.occupation);
+        SetKeywordButton(ethnicityBtn, SearchMemory.ethnicity);
+        SetKeywordButton(facialBtn, SearchMemory.facial);
+    }
+
+    void SetKeywordButton(Button button, string value)
+    {
+        if (string.IsNullOrEmpty(value))
+        {
+            button.gameObject.SetActive(false);
+        }
+        else
+        {
+            button.gameObject.SetActive(true);
+
+            TMP_Text textField = button.GetComponentInChildren<TMP_Text>();
+            textField.text = value;
+        }
     }
 }
