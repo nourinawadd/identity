@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jackie Chan
   m_EditorClassIdentifier: 
   celebrityName: Jackie Chan
-  portrait: {fileID: 0}
+  portrait: {fileID: 938662429790555920, guid: 3c5cf50e9b93aa74c9ebf6039b4cc4bf, type: 3}
   hair: Short
   occupation: Actor
   ethnicity: Asian

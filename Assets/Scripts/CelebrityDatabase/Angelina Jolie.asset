@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Angelina Jolie
   m_EditorClassIdentifier: 
   celebrityName: Angelina Jolie
-  portrait: {fileID: 0}
+  portrait: {fileID: -7839260316495664378, guid: ce56459c0759664429780d53a55696bc, type: 3}
   hair: Long
   occupation: Actor
   ethnicity: European

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chris Hemsworth
   m_EditorClassIdentifier: 
   celebrityName: Chris Hemsworth
-  portrait: {fileID: 0}
+  portrait: {fileID: 6460267354500796622, guid: 95a28685b7318cb45b9bd873f98d4200, type: 3}
   hair: Short
   occupation: Actor
   ethnicity: European

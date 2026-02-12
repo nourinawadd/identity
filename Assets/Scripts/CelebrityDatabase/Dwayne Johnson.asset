@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dwayne Johnson
   m_EditorClassIdentifier: 
   celebrityName: Dwayne Johnson
-  portrait: {fileID: 0}
+  portrait: {fileID: -4823207116048302614, guid: 49228d7f556ea3648a68ddb5172e36d1, type: 3}
   hair: Bald
   occupation: Actor
   ethnicity: Mixed

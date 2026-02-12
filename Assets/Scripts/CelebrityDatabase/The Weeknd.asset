@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: The Weeknd
   m_EditorClassIdentifier: 
   celebrityName: The Weeknd
-  portrait: {fileID: 0}
+  portrait: {fileID: 94429942045748593, guid: e81ff28843d5daf44a4dd7d53659f8f0, type: 3}
   hair: Curly
   occupation: Singer
   ethnicity: African

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Taylor Swift
   m_EditorClassIdentifier: 
   celebrityName: Taylor Swift
-  portrait: {fileID: 0}
+  portrait: {fileID: -3455001786481230032, guid: d0708ddbb7cef494c935ff7553db66b5, type: 3}
   hair: Long
   occupation: Singer
   ethnicity: European

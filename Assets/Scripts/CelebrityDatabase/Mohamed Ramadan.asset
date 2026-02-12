@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mohamed Ramadan
   m_EditorClassIdentifier: 
   celebrityName: Mohamed Ramadan
-  portrait: {fileID: 0}
+  portrait: {fileID: -6329787593643049008, guid: d1be4d896afc77a43b576d245103cbc1, type: 3}
   hair: Short
   occupation: Actor
   ethnicity: MiddleEastern

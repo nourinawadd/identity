@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Lupita Nyong\u2019o"
   m_EditorClassIdentifier: 
   celebrityName: "Lupita Nyong\u2019o"
-  portrait: {fileID: 0}
+  portrait: {fileID: -1606114613790207357, guid: 560491627f684454da1364ce88c428bd, type: 3}
   hair: Bald
   occupation: Actor
   ethnicity: African

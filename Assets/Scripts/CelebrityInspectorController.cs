@@ -21,7 +21,7 @@ public class CelebrityInspectorController : MonoBehaviour
         celebrityImage.sprite = celeb.portrait;
 
         inspectorDetails.text =
-            "Name: " + celeb.celebrityName + "\n\n" +
+            "Name: " + celeb.celebrityName + "\n" +
             "Occupation: " + celeb.occupation + "\n" +
             "Ethnicity: " + celeb.ethnicity + "\n";
 

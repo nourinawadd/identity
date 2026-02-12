@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Amr Diab
   m_EditorClassIdentifier: 
   celebrityName: Amr Diab
-  portrait: {fileID: 0}
+  portrait: {fileID: 315482796229925367, guid: 9f8528904f4c6a64a815f8912df2e88f, type: 3}
   hair: Short
   occupation: Singer
   ethnicity: MiddleEastern

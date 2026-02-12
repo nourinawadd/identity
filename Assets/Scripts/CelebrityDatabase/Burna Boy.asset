@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Burna Boy
   m_EditorClassIdentifier: 
   celebrityName: Burna Boy
-  portrait: {fileID: 0}
+  portrait: {fileID: -1352865099537882455, guid: 09fad6aacc1fb674687461a7eb6c4750, type: 3}
   hair: Curly
   occupation: Singer
   ethnicity: African

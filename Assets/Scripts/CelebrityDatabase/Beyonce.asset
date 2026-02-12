@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Beyonce
   m_EditorClassIdentifier: 
   celebrityName: Beyonce
-  portrait: {fileID: 0}
+  portrait: {fileID: -454020546153957210, guid: 0b2974ef240d71240a89727c6eeb7906, type: 3}
   hair: Long
   occupation: Singer
   ethnicity: African

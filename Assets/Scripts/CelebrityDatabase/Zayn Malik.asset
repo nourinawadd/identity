@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Zayn Malik
   m_EditorClassIdentifier: 
   celebrityName: Zayn Malik
-  portrait: {fileID: 0}
+  portrait: {fileID: -2143872924442731782, guid: 6cda0adbcc27939478e9ecdd25378abd, type: 3}
   hair: Short
   occupation: Singer
   ethnicity: MiddleEastern

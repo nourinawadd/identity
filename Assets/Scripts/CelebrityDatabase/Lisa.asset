@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lisa
   m_EditorClassIdentifier: 
   celebrityName: Lisa
-  portrait: {fileID: 0}
+  portrait: {fileID: 5328894139677964944, guid: ce79bef70dad3db4fad5d0ca926ec04d, type: 3}
   hair: Long
   occupation: Singer
   ethnicity: Asian

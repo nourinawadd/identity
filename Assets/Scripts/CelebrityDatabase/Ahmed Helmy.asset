@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ahmed Helmy
   m_EditorClassIdentifier: 
   celebrityName: Ahmed Helmy
-  portrait: {fileID: 0}
+  portrait: {fileID: 5639715573501274894, guid: e8a047755c3c0cc44993f75bb631aa9e, type: 3}
   hair: Short
   occupation: Actor
   ethnicity: MiddleEastern

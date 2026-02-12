@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jungkook
   m_EditorClassIdentifier: 
   celebrityName: Jungkook
-  portrait: {fileID: 0}
+  portrait: {fileID: -2448370640545651986, guid: 7b8d4dccee7f2ec4ba62e85c6f50cb0e, type: 3}
   hair: Short
   occupation: Singer
   ethnicity: Asian

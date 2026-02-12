@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Timothee Chalamet
   m_EditorClassIdentifier: 
   celebrityName: Timothee Chalamet
-  portrait: {fileID: 0}
+  portrait: {fileID: -8748670717469056454, guid: a73bad344ba62dd44860bab7ab3f5051, type: 3}
   hair: Curly
   occupation: Actor
   ethnicity: European

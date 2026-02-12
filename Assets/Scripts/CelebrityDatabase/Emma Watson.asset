@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Emma Watson
   m_EditorClassIdentifier: 
   celebrityName: Emma Watson
-  portrait: {fileID: 0}
+  portrait: {fileID: 146853443418840054, guid: 7c9e3a2777aa35f4c8e75631de4fbf61, type: 3}
   hair: Tied
   occupation: Actor
   ethnicity: European

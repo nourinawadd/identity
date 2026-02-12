@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Zendaya
   m_EditorClassIdentifier: 
   celebrityName: Zendaya
-  portrait: {fileID: 0}
+  portrait: {fileID: -1814042004838762661, guid: 35b98a5043ef45b45b95593dc0457cec, type: 3}
   hair: Long
   occupation: Actor
   ethnicity: Mixed

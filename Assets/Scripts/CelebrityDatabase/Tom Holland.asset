@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tom Holland
   m_EditorClassIdentifier: 
   celebrityName: Tom Holland
-  portrait: {fileID: 0}
+  portrait: {fileID: -8416333687391929212, guid: 4224957dc7a1e494a9108fd59895cf09, type: 3}
   hair: Short
   occupation: Actor
   ethnicity: European

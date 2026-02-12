@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Idris Elba
   m_EditorClassIdentifier: 
   celebrityName: Idris Elba
-  portrait: {fileID: 0}
+  portrait: {fileID: -3664665505088934620, guid: 10e2fac08dcf3a740a50d06db4cc6e0f, type: 3}
   hair: Bald
   occupation: Actor
   ethnicity: African

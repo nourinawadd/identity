@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Salma Hayek
   m_EditorClassIdentifier: 
   celebrityName: Salma Hayek
-  portrait: {fileID: 0}
+  portrait: {fileID: 6350154653045584639, guid: d5dfa903a82c54343ac6ddb127c3efb7, type: 3}
   hair: Tied
   occupation: Actor
   ethnicity: MiddleEastern

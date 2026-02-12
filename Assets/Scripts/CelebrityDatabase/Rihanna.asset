@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rihanna
   m_EditorClassIdentifier: 
   celebrityName: Rihanna
-  portrait: {fileID: 0}
+  portrait: {fileID: 4957656691438462238, guid: a823696357653d848be7b23e846901d2, type: 3}
   hair: Long
   occupation: Singer
   ethnicity: Mixed

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Drake
   m_EditorClassIdentifier: 
   celebrityName: Drake
-  portrait: {fileID: 0}
+  portrait: {fileID: 6325550757170193990, guid: 87e817fe71a16564e863a91ff8abae30, type: 3}
   hair: Short
   occupation: Singer
   ethnicity: Mixed

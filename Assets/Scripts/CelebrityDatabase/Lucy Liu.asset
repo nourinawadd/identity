@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lucy Liu
   m_EditorClassIdentifier: 
   celebrityName: Lucy Liu
-  portrait: {fileID: 0}
+  portrait: {fileID: 7972727477887937058, guid: 0e9f479f7cb21f647b61fe94421cbb70, type: 3}
   hair: Tied
   occupation: Actor
   ethnicity: Asian

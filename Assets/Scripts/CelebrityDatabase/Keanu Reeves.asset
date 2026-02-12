@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Keanu Reeves
   m_EditorClassIdentifier: 
   celebrityName: Keanu Reeves
-  portrait: {fileID: 0}
+  portrait: {fileID: -7480514179603733810, guid: 71184afb2ae98824e843a3ad479133d6, type: 3}
   hair: Long
   occupation: 'Actor '
   ethnicity: Asian

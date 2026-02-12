@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Yasmin Sabry
   m_EditorClassIdentifier: 
   celebrityName: Yasmin Sabry
-  portrait: {fileID: 0}
+  portrait: {fileID: -3269071323895110313, guid: ab67628de3156ad499694211fe48c9ef, type: 3}
   hair: Long
   occupation: Actor
   ethnicity: MiddleEastern

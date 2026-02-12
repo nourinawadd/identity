@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Billie Eilish
   m_EditorClassIdentifier: 
   celebrityName: Billie Eilish
-  portrait: {fileID: 0}
+  portrait: {fileID: -7633778843676575713, guid: 28008a195ddbe2442bfcff48ad905968, type: 3}
   hair: Short
   occupation: Singer
   ethnicity: European

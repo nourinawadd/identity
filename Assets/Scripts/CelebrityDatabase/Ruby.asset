@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ruby
   m_EditorClassIdentifier: 
   celebrityName: Ruby
-  portrait: {fileID: 0}
+  portrait: {fileID: 7774493202208912350, guid: e38e6830eb3e3b941b985f06dfa9637b, type: 3}
   hair: Curly
   occupation: Singer
   ethnicity: MiddleEastern
