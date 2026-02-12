@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   celebrityName: Lady Gaga
   portrait: {fileID: -6006443392792482661, guid: bce4d0e87440f0c41af6bbfd5dce98cb, type: 3}
-  hair: Long
+  hair: Tied
   occupation: Singer
   ethnicity: European
   facial: Angular

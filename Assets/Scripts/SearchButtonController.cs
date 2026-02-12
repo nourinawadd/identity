@@ -1,13 +1,20 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class SearchButtonController : MonoBehaviour
 {
     public Transform searchBarHolder;
-    public string resultsSceneName = "Results";
+    public string resultsSceneName = "ResultsScene";
+
+    public GameObject duplicateWarningPopup;
 
     public void OnSearchPressed()
     {
+        // Track category counts
+        Dictionary<KeywordCategory, int> categoryCount =
+            new Dictionary<KeywordCategory, int>();
+
         // Reset memory
         SearchMemory.hair = "";
         SearchMemory.occupation = "";
@@ -21,7 +28,20 @@ public class SearchButtonController : MonoBehaviour
             if (btn == null)
                 continue;
 
-            // Save category → memory
+            // Count category usage
+            if (!categoryCount.ContainsKey(btn.category))
+                categoryCount[btn.category] = 0;
+
+            categoryCount[btn.category]++;
+
+            // If duplicate category → STOP + popup
+            if (categoryCount[btn.category] > 1)
+            {
+                duplicateWarningPopup.SetActive(true);
+                return;
+            }
+
+            // Save keyword
             switch (btn.category)
             {
                 case KeywordCategory.Hair:
@@ -41,6 +61,10 @@ public class SearchButtonController : MonoBehaviour
                     break;
             }
         }
+
+        // Optional: Prevent searching with zero keywords
+        if (searchBarHolder.childCount == 0)
+            return;
 
         SceneManager.LoadScene(resultsSceneName);
     }
