@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_11
+  m_EditorClassIdentifier: 
+  caseDescription: "The Nile Prestige Awards hosted an exclusive fashion showcase
+    featuring designs created specifically for regional film and music icons. Moments
+    before the live runway broadcast, event coordinators discovered that the final
+    showcase lineup had been quietly rearranged, causing several models to appear
+    wearing incomplete collections. Investigators reviewing backstage footage noticed
+    a high-profile entertainment figure browsing wardrobe displays shortly before
+    the alteration occurred.\nSeveral stylists remembered the individual discussing
+    upcoming television drama projects with producers while observing costume fittings.
+    A makeup artist later recalled how the performer\u2019s public image often relied
+    on maintaining a polished yet effortless appearance, frequently highlighted during
+    television premieres and cinematic press events across the Middle East.\nOne
+    wardrobe assistant distinctly remembered the suspect adjusting their hairstyle
+    during mirror checks, allowing long strands to fall naturally across their shoulders
+    rather than securing them for movement-heavy stage performances. Another staff
+    member commented that the individual\u2019s facial balance and defined features
+    made them instantly recognizable during close-up media appearances and fashion
+    photography.\nSecurity later confirmed that the suspect was seen greeting fashion
+    journalists and brand representatives near the runway entrance shortly after
+    the lineup disruption occurred. By the time event planners restored the original
+    showcase order, the performer had already joined the audience seating area and
+    resumed interacting with guests as if they had never entered the wardrobe preparation
+    zone."
+  culprit: {fileID: 11400000, guid: 4ff2ebf0ba7e793478429d27de8c5128, type: 2}

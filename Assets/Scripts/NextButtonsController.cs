@@ -14,4 +14,9 @@ public class NextButtonsController : MonoBehaviour
         SearchMemory.Clear();
         SceneManager.LoadScene("Search");
     }
+    public void MainMenu()
+    {
+        SearchMemory.Clear();
+        SceneManager.LoadScene("MainMenu");
+    }
 }

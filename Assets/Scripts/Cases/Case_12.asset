@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_12
+  m_EditorClassIdentifier: 
+  caseDescription: "The Silver Lantern Film Festival premiere encountered unexpected
+    delays when the official orchestral soundtrack prepared for the opening ceremony
+    was replaced with an entirely different musical score moments before playback.
+    Audio engineers confirmed that someone with backstage clearance had accessed
+    the digital performance archive shortly before guests arrived.\nEvent staff remembered
+    a globally touring recording artist visiting the sound department earlier that
+    evening, enthusiastically discussing production layering techniques and studio
+    experimentation with audio engineers. A production intern later recalled the
+    performer\u2019s appearance being particularly recognizable due to how their
+    tightly patterned hairstyle interacted with stage lighting during previous performances
+    at the festival.\nA costume designer who briefly spoke with the suspect mentioned
+    that their performance persona often relied on strong, textured stage presence
+    supported by bold lighting effects that emphasized facial definition during live
+    shows. Several crew members also remembered the individual speaking about collaborative
+    music projects across both American and African music markets.\nBy the time the
+    correct soundtrack files were restored, the performer had already returned to
+    the main event floor, greeting fans and posing for photographers during live
+    media coverage."
+  culprit: {fileID: 11400000, guid: 2e2d0ba64749e704c92b5f671bfc0a91, type: 2}

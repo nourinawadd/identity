@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_9
+  m_EditorClassIdentifier: 
+  caseDescription: "The Royal Motion Picture Premiere nearly faced cancellation when
+    a confidential performance contract intended for the evening\u2019s closing segment
+    disappeared from the event\u2019s executive planning office. Coordinators reviewing
+    access logs reported seeing a prominent action film star reviewing scheduling
+    paperwork near the executive briefing room shortly before the document vanished.\nA
+    production assistant later remembered the suspect clearly due to their completely
+    shaved hairstyle, which contrasted with the elaborate costume designs surrounding
+    the rehearsal space. Another staff member noted the individual\u2019s strongly
+    defined and rugged facial appearance, often associated with physically demanding
+    stunt-heavy film roles.\nSeveral security guards later recalled the suspect casually
+    speaking with stunt coordinators and special effects teams about upcoming projects
+    while navigating backstage corridors with confident familiarity. By the time
+    organizers noticed the contract had been misplaced, the individual had already
+    joined fellow performers outside for press interviews and fan interactions."
+  culprit: {fileID: 11400000, guid: 222bf645ccbd6b8468d37e4b4df9a6a6, type: 2}

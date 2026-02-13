@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_8
+  m_EditorClassIdentifier: 
+  caseDescription: "At the World Sound Awards press conference, an official digital
+    presentation announcing upcoming tour schedules was mysteriously altered to display
+    incorrect locations and dates, causing widespread confusion among international
+    promoters. Event staff reviewing backstage access logs remembered a globally
+    recognized performer stepping into the technical control lounge shortly before
+    the changes appeared on the presentation screens.\nSeveral sound engineers noted
+    the individual\u2019s hairstyle immediately stood out, forming tightly textured
+    patterns that remained distinctive even under stage preparation lighting. A stage
+    manager later commented that the performer carried a commanding stage aura, reinforced
+    by bold, weathered facial characteristics that audiences often associate with
+    powerful live performances.\nWitnesses also recalled the suspect animatedly discussing
+    album production timelines and festival appearances across multiple continents
+    while waiting for their press interview slot. As technicians rushed to restore
+    the correct presentation files, the individual was already greeting fans outside
+    the conference hall and preparing for a televised performance segment."
+  culprit: {fileID: 11400000, guid: 18a5ff7c5bce9ab43abb287c5bfa9457, type: 2}

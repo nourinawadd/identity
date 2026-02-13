@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_6
+  m_EditorClassIdentifier: 
+  caseDescription: 'The Global Harmony Music Festival was preparing for its highly
+    anticipated closing performance when a custom-designed finale costume vanished
+    from a secured wardrobe suite. Production assistants reported seeing a chart-dominating
+    vocalist entering the restricted dressing corridor between rehearsal breaks.
+    Several dancers remembered the performer chatting casually with costume designers
+    about last-minute choreography adjustments and upcoming international tour stops.
+
+    A
+    wardrobe coordinator distinctly recalled the suspect because their hair moved
+    freely behind them as they rushed between fitting stations, catching the light
+    from the mirrored dressing panels. Another stylist mentioned that the performer
+    possessed striking and uniquely recognizable facial details that stood out even
+    when partially concealed by stage lighting and rehearsal makeup.
+
+    Later that
+    evening, journalists stationed near the backstage entrance reported overhearing
+    the suspect enthusiastically discussing collaborations across multiple music
+    genres and continents. By the time the costume department realized the final
+    outfit was missing, the individual had already returned to center stage rehearsals,
+    confidently running through choreography while surrounded by backup performers.'
+  culprit: {fileID: 11400000, guid: 06e1040beabe1cc44b215205f1db26f0, type: 2}

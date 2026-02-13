@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_7
+  m_EditorClassIdentifier: 
+  caseDescription: 'During the prestigious Golden Spotlight Cinema Awards, panic
+    spread among organizers when the envelope containing the final award announcement
+    briefly disappeared from the control booth moments before the live broadcast
+    reveal. Technicians reported seeing a celebrated dramatic film veteran reviewing
+    teleprompter cues and stage positioning charts shortly before the envelope went
+    missing.
+
+    A lighting technician later recalled noticing the suspect during
+    equipment checks because of their strong, sharply defined facial structure that
+    frequently catches dramatic shadows during on-screen close-ups. Another crew
+    member remembered the individual speaking with producers about emotionally intense
+    film roles while calmly navigating the crowded backstage environment.
+
+    Event
+    security staff later pieced together that the suspect had passed through multiple
+    restricted hallways without drawing suspicion, engaging comfortably with crew
+    members and fellow performers. By the time the envelope was quietly returned
+    to the control booth desk, the individual had already rejoined fellow nominees
+    in the main auditorium, offering polite applause as rehearsals continued.'
+  culprit: {fileID: 11400000, guid: b94cdda0ae994274eaf12df31539df20, type: 2}

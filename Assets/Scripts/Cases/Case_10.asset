@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_10
+  m_EditorClassIdentifier: 
+  caseDescription: "Preparations for the Celestial Sound Awards finale were thrown
+    into chaos when choreographers discovered that the rehearsal formations for the
+    closing performance had been altered overnight. The changes caused multiple dancers
+    to collide during practice, forcing organizers to halt production while they
+    searched for the source of the interference. Security logs showed a globally
+    recognized performer entering the rehearsal studio hours after most crews had
+    left, reportedly to \u201Creview staging transitions.\u201D\nSeveral stage assistants
+    remembered the individual studying mirrored rehearsal footage while casually
+    humming through performance segments that clearly belonged to their own concert
+    repertoire rather than any scripted cinematic piece. One lighting designer later
+    noted how the performer\u2019s stage persona relied heavily on expressive silhouette
+    work, often enhanced by the way their profile interacted with strong spotlight
+    contrasts.\nA wardrobe supervisor also recalled the suspect passing through costume
+    fittings earlier in the evening, where they spent an unusual amount of time reviewing
+    performance outfits designed for long-duration stage movement. During those fittings,
+    stylists briefly discussed how the performer\u2019s signature presentation style
+    often involved letting their hair move naturally during choreography rather than
+    restraining it for dramatic effect."
+  culprit: {fileID: 11400000, guid: 3ca9786dc63b877469c87e5d473b281b, type: 2}
