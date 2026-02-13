@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b24e6a59955a34fb87cc80cb2cb625, type: 3}
+  m_Name: Jennifer Lopez
+  m_EditorClassIdentifier: 
+  celebrityName: Jennifer Lopez
+  portrait: {fileID: 8696933048910193330, guid: edeec7b04fc58cf4e80a488f3361398d, type: 3}
+  hair: Long
+  occupation: Singer
+  ethnicity: Mixed
+  facial: Angular

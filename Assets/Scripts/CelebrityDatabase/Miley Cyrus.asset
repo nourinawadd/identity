@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b24e6a59955a34fb87cc80cb2cb625, type: 3}
+  m_Name: Miley Cyrus
+  m_EditorClassIdentifier: 
+  celebrityName: Miley Cyrus
+  portrait: {fileID: -8855025446964463522, guid: dbd899124e5c60844a9e6be092f1328a, type: 3}
+  hair: Tied
+  occupation: Singer
+  ethnicity: European
+  facial: Rugged

@@ -1,10 +1,16 @@
 using UnityEngine;
+using TMPro;
 
 public class CaseFileController : MonoBehaviour
 {
     public GameObject closedFile;
     public GameObject openFile;
+    public TMP_Text caseText;
 
+    void Start()
+    {
+        caseText.text = CaseManager.Instance.currentCase.caseDescription;
+    }
     public void OpenFile()
     {
         closedFile.SetActive(false);
