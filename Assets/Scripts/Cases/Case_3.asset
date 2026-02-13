@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_3
+  m_EditorClassIdentifier: 
+  caseDescription: "At an international fashion premiere, a rare emerald necklace
+    intended for the finale runway suddenly appeared to be replaced with an imitation.
+    The switch likely occurred while stylists and performers were rotating through
+    the dressing suites.\nOne wardrobe assistant remembered a performer stepping
+    into the jewelry room shortly after finishing a soundcheck rehearsal for the
+    evening\u2019s musical showcase. The assistant noted the performer's tight curls
+    as they leaned over the accessory table to examine the display pieces.\nLater,
+    the suspect was overheard discussing their recent chart success across multiple
+    continents while speaking to journalists near the photographers\u2019 section.
+    A security volunteer also recalled the performer\u2019s sharp confidence when
+    navigating crowded backstage hallways, suggesting someone accustomed to commanding
+    massive live audiences."
+  culprit: {fileID: 11400000, guid: 2e2d0ba64749e704c92b5f671bfc0a91, type: 2}

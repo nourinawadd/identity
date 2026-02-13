@@ -9,7 +9,7 @@ public class CaseFileController : MonoBehaviour
 
     void Start()
     {
-        caseText.text = CaseManager.Instance.currentCase.caseDescription;
+        caseText.text = CaseManager.Instance.GetCurrentCase().caseDescription;
     }
     public void OpenFile()
     {

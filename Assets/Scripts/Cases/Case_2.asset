@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aef3d1b6ee5f44bab205f2cfd91622, type: 3}
+  m_Name: Case_2
+  m_EditorClassIdentifier: 
+  caseDescription: "During a charity film gala, organizers reported that a confidential
+    script scheduled for auction was stolen from the VIP writer\u2019s lounge. The
+    theft happened shortly after several film stars were escorted inside to review
+    the script for promotional endorsements.\nA bartender recalled the suspect confidently
+    discussing upcoming film roles with producers while waiting for a private meeting
+    to begin. Another witness mentioned that the individual had arrived directly
+    from the red carpet and appeared slightly wind-swept, with their hair cropped
+    neatly and styled.\nSecurity logs later showed the suspect leaving the lounge
+    carrying a folder identical to the one used for the script presentation. Event
+    staff remembered the person interacting warmly with fans from across Europe while
+    signing memorabilia just minutes before the alarm was raised."
+  culprit: {fileID: 11400000, guid: 207f37b26229fef4eb4228d8c96e6850, type: 2}

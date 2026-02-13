@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class SearchButtonController : MonoBehaviour
 {
     public Transform searchBarHolder;
-    public string resultsSceneName = "ResultsScene";
+    public string resultsSceneName = "Results";
 
     public GameObject duplicateWarningPopup;
 
