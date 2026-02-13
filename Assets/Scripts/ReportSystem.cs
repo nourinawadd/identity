@@ -3,9 +3,7 @@ using UnityEngine;
 public class ReportSystem : MonoBehaviour
 {
     public CelebrityInspectorController inspector;
-
-    public GameObject winScreen;
-    public GameObject loseScreen;
+    public VerdictController verdictController;
 
     public void ReportSuspect()
     {
@@ -15,13 +13,6 @@ public class ReportSystem : MonoBehaviour
         bool correct =
             CaseManager.Instance.IsCorrectCulprit(selected);
 
-        if (correct)
-        {
-            winScreen.SetActive(true);
-        }
-        else
-        {
-            loseScreen.SetActive(true);
-        }
+        verdictController.ShowVerdict(selected, correct);
     }
 }
